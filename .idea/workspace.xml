@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="091ffea7-c42e-4fff-bb98-66fdabf4f2cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/preview-head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Avatar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Avatar.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Badge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Badge.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Button.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Icon.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Link.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StoryLinkWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/0-Welcome.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/1-Button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,8 +71,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590147577882</updated>
-      <workItem from="1590147580596" duration="6662000" />
+      <workItem from="1590147580596" duration="8850000" />
     </task>
+    <task id="LOCAL-00001" summary="learn storybook files added with circleci">
+      <created>1590156410978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590156410978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +96,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="learn storybook files added with circleci" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn storybook files added with circleci" />
   </component>
 </project>
