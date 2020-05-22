@@ -3,16 +3,23 @@ jobs:
   build:
     docker:
       - image: circleci/node:10.13
+
     working_directory: ~/repo
+
     steps:
       - checkout
+
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
             - v1-dependencies-
-      - run: yarn install
+
+      - run: npm install
+
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      - run: yarn test
+
+      - run: npm test
+      - run: npx chromatic --project-token=j2cgbfda5xd --exit-zero-on-changes
