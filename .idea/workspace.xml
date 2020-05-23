@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="091ffea7-c42e-4fff-bb98-66fdabf4f2cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="091ffea7-c42e-4fff-bb98-66fdabf4f2cd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,12 +11,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="improve-button" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cGGa9c9noyBZ77OzLxeiytCitU" />
@@ -33,6 +35,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -71,7 +74,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590147577882</updated>
-      <workItem from="1590147580596" duration="8850000" />
+      <workItem from="1590147580596" duration="16104000" />
+      <workItem from="1590172186501" duration="326000" />
+      <workItem from="1590213655426" duration="268000" />
+      <workItem from="1590213956883" duration="3714000" />
+      <workItem from="1590217944891" duration="1443000" />
     </task>
     <task id="LOCAL-00001" summary="learn storybook files added with circleci">
       <created>1590156410978</created>
@@ -80,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590156410978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed a lot">
+      <created>1590218938846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590218938846</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added private false in package.json">
+      <created>1590219300766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590219300766</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,7 +112,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -99,6 +122,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="learn storybook files added with circleci" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn storybook files added with circleci" />
+    <MESSAGE value="changed a lot" />
+    <MESSAGE value="added private false in package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="added private false in package.json" />
   </component>
 </project>
