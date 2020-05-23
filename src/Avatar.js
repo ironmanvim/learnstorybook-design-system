@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components';
-import { color, typography } from './shared/styles';
-import { glow } from './shared/animation';
-import { Icon } from './Icon';
+import styled, {css} from 'styled-components';
+import {color, typography} from './shared/styles';
+import {glow} from './shared/animation';
+import {Icon} from './Icon';
 
 export const sizes = {
-  large: 40,
-  medium: 28,
-  small: 20,
-  tiny: 16,
+    large: 40,
+    medium: 28,
+    small: 20,
+    tiny: 16,
 };
 
 const Image = styled.div`
@@ -98,41 +98,59 @@ const Initial = styled.div`
   `}
 `;
 
-export function Avatar({ loading, username, src, size, ...props }) {
-  let avatarFigure = <Icon icon="useralt" />;
-  const a11yProps = {};
+/**
+ * - Use an avatar for attributing actions or content to specific users.
+ * - The user's name should always be present when using Avatar – either printed beside the avatar or in a tooltip.
+ */
 
-  if (loading) {
-    a11yProps['aria-busy'] = true;
-    a11yProps['aria-label'] = 'Loading avatar ...';
-  } else if (src) {
-    avatarFigure = <img src={src} alt={username} />;
-  } else {
-    a11yProps['aria-label'] = username;
-    avatarFigure = (
-      <Initial size={size} aria-hidden="true">
-        {username.substring(0, 1)}
-      </Initial>
+export function Avatar({loading, username, src, size, ...props}) {
+    let avatarFigure = <Icon icon="useralt"/>;
+    const a11yProps = {};
+
+    if (loading) {
+        a11yProps['aria-busy'] = true;
+        a11yProps['aria-label'] = 'Loading avatar ...';
+    } else if (src) {
+        avatarFigure = <img src={src} alt={username}/>;
+    } else {
+        a11yProps['aria-label'] = username;
+        avatarFigure = (
+            <Initial size={size} aria-hidden="true">
+                {username.substring(0, 1)}
+            </Initial>
+        );
+    }
+
+    return (
+        <Image size={size} loading={loading} src={src} {...a11yProps} {...props}>
+            {avatarFigure}
+        </Image>
     );
-  }
-
-  return (
-    <Image size={size} loading={loading} src={src} {...a11yProps} {...props}>
-      {avatarFigure}
-    </Image>
-  );
 }
 
 Avatar.propTypes = {
-  loading: PropTypes.bool,
-  username: PropTypes.string,
-  src: PropTypes.string,
-  size: PropTypes.oneOf(Object.keys(sizes)),
+    /**
+     Use the loading state to indicate that the data Avatar needs is still loading.
+     */
+    loading: PropTypes.bool,
+    /**
+     Avatar falls back to the user's initial when no image is provided.
+     Supply a `username` and omit `src` to see what this looks like.
+     */
+    username: PropTypes.string,
+    /**
+     The URL of the Avatar's image.
+     */
+    src: PropTypes.string,
+    /**
+     Avatar comes in four sizes. In most cases, you'll be fine with `medium`.
+     */
+    size: PropTypes.oneOf(Object.keys(sizes)),
 };
 
 Avatar.defaultProps = {
-  loading: false,
-  username: 'loading',
-  src: null,
-  size: 'medium',
+    loading: false,
+    username: 'loading',
+    src: null,
+    size: 'medium',
 };
