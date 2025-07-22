@@ -10,7 +10,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "styled-components": "^5.1.0"
   },
   "scripts": {
@@ -55,7 +55,7 @@
     "@storybook/preset-create-react-app": "^3.0.0",
     "@storybook/react": "^5.3.18",
     "auto": "^9.36.1",
-    "chromatic": "^4.0.3",
+    "chromatic": "^13.1.2",
     "cross-env": "^7.0.2"
   },
   "description": "The Learn Storybook design system is a subset of the full [Storybook design system](https://github.com/storybookjs/design-system/), created as a learning resource for those interested in learning how to write and publish a design system using best in practice techniques.",
